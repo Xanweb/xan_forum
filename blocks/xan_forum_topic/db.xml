@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.concrete5.org/doctrine-xml/0.5"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.concrete5.org/doctrine-xml/0.5 http://concrete5.github.io/doctrine-xml/doctrine-xml-0.5.xsd">
+    <table name="btXanForumTopic">
+        <field name="bID" type="integer">
+            <unsigned/>
+            <key/>
+        </field>
+        <field name="userID" type="integer"></field>
+        <field name="parentPageID" type="integer"></field>
+        <field name="area" type="string" size="255"></field>
+        <field name="ctID" type="integer"></field>
+        <field name="ptID" type="string" size="255"></field>
+        <field name="topicsPerPage" type="integer"></field>
+        <field name="sortOrder" type="string" size="255"></field>
+    </table>
+</schema>

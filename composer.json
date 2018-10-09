@@ -1,0 +1,12 @@
+{
+    "name": "xanweb/xan_forum",
+    "type": "concrete5-package",
+    "description": "Xanweb Forum",
+    "require": {
+        "php": ">=5.5.9",
+        "composer/installers": "~1.0"
+    },
+    "support": {
+        "source": "https://github.com/Xanweb/xan_forum"
+    }
+}

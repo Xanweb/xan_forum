@@ -1,0 +1,761 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: xan_forum 1.0.6\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-07-30 12:02+0200\n"
+"PO-Revision-Date: 2017-02-17T08:04:51+00:00\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-KeywordsList: t\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: blocks/xan_conversation/controller.php:30
+msgid "Displays conversations on a page."
+msgstr ""
+
+#: blocks/xan_conversation/controller.php:35
+msgid "Xan Conversation"
+msgstr ""
+
+#: blocks/xan_conversation/controller.php:159
+#: blocks/xan_conversation/form.php:13
+#: controllers/conversations/conversation.php:48
+msgid "Add Message"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:40
+msgid "Message List"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:42
+msgid "Ordering"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:43 elements/conversation/display.php:55
+msgid "Earliest First"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:43 elements/conversation/display.php:57
+msgid "Most Recent First"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:43 elements/conversation/display.php:59
+msgid "Highest Rated"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:49
+msgid "Display Ordering Option in Page"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:54
+msgid "Rating"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:58
+msgid "Enable Comment Rating"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:63
+msgid "Paginate Message List"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:67
+msgid "No, display all messages."
+msgstr ""
+
+#: blocks/xan_conversation/form.php:73
+msgid "Yes, display only a sub-set of messages at a time."
+msgstr ""
+
+#: blocks/xan_conversation/form.php:78
+msgid "Messages Per Page"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:84
+msgid "Posting"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:86
+msgid "Add Message Label"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:90
+msgid "Enable Posting"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:94
+msgid "Yes, this conversation accepts messages and replies."
+msgstr ""
+
+#: blocks/xan_conversation/form.php:100
+msgid "No, posting is disabled."
+msgstr ""
+
+#: blocks/xan_conversation/form.php:105
+msgid "Display Posting Form"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:109
+msgid "Top"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:115
+msgid "Bottom"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:121
+msgid "Date Format"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:126
+msgid "Use Site Default."
+msgstr ""
+
+#: blocks/xan_conversation/form.php:132
+msgid "Time elapsed since topic."
+msgstr ""
+
+#: blocks/xan_conversation/form.php:138
+msgid "Custom"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:145
+msgid "File Attachment Management"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:146
+msgid "Note: Entering values here will override global conversations file attachment settings for this block if you enable Attachment Overrides for this Conversation."
+msgstr ""
+
+#: blocks/xan_conversation/form.php:150
+msgid "Enable Attachment Overrides"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:158
+msgid "Enable Attachments"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:163
+msgid "Max Attachment Size for Guest Users. (MB)"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:169
+msgid "Max Attachment Size for Registered Users. (MB)"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:175
+msgid "Max Attachments Per Message for Guest Users."
+msgstr ""
+
+#: blocks/xan_conversation/form.php:181
+msgid "Max Attachments Per Message for Registered Users"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:187
+msgid "Allowed File Extensions (Comma separated, no periods)."
+msgstr ""
+
+#: blocks/xan_conversation/form.php:197
+msgid "Notification"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:201
+msgid "Override Global Settings"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:207
+msgid "Users To Receive Conversation Notifications"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:212
+msgid "Subscribe Option"
+msgstr ""
+
+#: blocks/xan_conversation/form.php:215
+msgid "Yes, allow registered users to choose to subscribe to conversations."
+msgstr ""
+
+#: blocks/xan_conversation/view.php:62
+msgid "Drop files here to upload"
+msgstr ""
+
+#: blocks/xan_forum_topic/controller.php:30
+msgid "Board Topic"
+msgstr ""
+
+#: blocks/xan_forum_topic/controller.php:35
+msgid "Board Topic."
+msgstr ""
+
+#: blocks/xan_forum_topic/controller.php:97
+msgid "You don't have permission to add new topic."
+msgstr ""
+
+#: blocks/xan_forum_topic/controller.php:149
+msgid "Topic subject cannot be empty."
+msgstr ""
+
+#: blocks/xan_forum_topic/controller.php:153
+#: controllers/conversations/message.php:122
+#: controllers/conversations/message.php:238
+msgid "Your message cannot be empty."
+msgstr ""
+
+#: blocks/xan_forum_topic/controller.php:221 controllers/tools.php:24
+msgid "Please select"
+msgstr ""
+
+#: blocks/xan_forum_topic/controller.php:226
+msgid "Last Topic Update"
+msgstr ""
+
+#: blocks/xan_forum_topic/controller.php:226
+msgid "Topic Created"
+msgstr ""
+
+#: blocks/xan_forum_topic/controller.php:236
+#: controllers/single_page/dashboard/system/backup/forum/import.php:46
+#: controllers/single_page/dashboard/system/backup/import.php:39
+msgid "Please select..."
+msgstr ""
+
+#: blocks/xan_forum_topic/form_setup_html.php:8
+msgid "Topic Page"
+msgstr ""
+
+#: blocks/xan_forum_topic/form_setup_html.php:9
+msgid "Select the page beneath which the topics are created."
+msgstr ""
+
+#: blocks/xan_forum_topic/form_setup_html.php:14
+#: single_pages/dashboard/system/backup/forum/import.php:22
+#: single_pages/dashboard/system/backup/import.php:22
+msgid "Collection Type"
+msgstr ""
+
+#: blocks/xan_forum_topic/form_setup_html.php:15
+msgid "Specify the collection type you'd like to use for new topics."
+msgstr ""
+
+#: blocks/xan_forum_topic/form_setup_html.php:23
+#: single_pages/dashboard/system/backup/forum/import.php:31
+#: single_pages/dashboard/system/backup/import.php:31
+msgid "Page Template"
+msgstr ""
+
+#: blocks/xan_forum_topic/form_setup_html.php:24
+msgid "Specify the page tempate you'd like to use for new topics."
+msgstr ""
+
+#: blocks/xan_forum_topic/form_setup_html.php:32
+#: single_pages/dashboard/system/backup/forum/import.php:40
+#: single_pages/dashboard/system/backup/import.php:40
+msgid "Area"
+msgstr ""
+
+#: blocks/xan_forum_topic/form_setup_html.php:33
+msgid "Select the area where the topics should be added."
+msgstr ""
+
+#: blocks/xan_forum_topic/form_setup_html.php:41
+msgid "Sort Order"
+msgstr ""
+
+#: blocks/xan_forum_topic/form_setup_html.php:42
+msgid "Specify the sorder order you'd like to use for the list of topics."
+msgstr ""
+
+#: blocks/xan_forum_topic/form_setup_html.php:50
+msgid "Topics per Page"
+msgstr ""
+
+#: blocks/xan_forum_topic/form_setup_html.php:51
+msgid "Specify the number of topics you'd like to see on each page."
+msgstr ""
+
+#: blocks/xan_forum_topic/new_topic.php:23
+msgid "Start New Topic"
+msgstr ""
+
+#: blocks/xan_forum_topic/new_topic.php:25
+msgid "Subject"
+msgstr ""
+
+#: blocks/xan_forum_topic/new_topic.php:29 elements/conversation/message.php:63
+msgid "Message"
+msgstr ""
+
+#: blocks/xan_forum_topic/new_topic.php:42
+#: elements/conversation/message/add_form.php:27
+#: views/conversation/edit_message.php:10
+msgid "Attach Files"
+msgstr ""
+
+#: blocks/xan_forum_topic/new_topic.php:52 elements/conversation/display.php:38
+#: elements/conversation/display.php:43 views/conversation/edit_message.php:12
+msgid "Cancel"
+msgstr ""
+
+#: blocks/xan_forum_topic/new_topic.php:54
+msgid "Publish Topic"
+msgstr ""
+
+#: blocks/xan_forum_topic/view.php:32 blocks/xan_forum_topic/view.php:81
+msgid "Create a New Topic"
+msgstr ""
+
+#: blocks/xan_forum_topic/view.php:41
+msgid "Topic"
+msgstr ""
+
+#: blocks/xan_forum_topic/view.php:42
+msgid "Last Message"
+msgstr ""
+
+#: blocks/xan_forum_topic/view.php:54
+msgid "Posted by"
+msgstr ""
+
+#: blocks/xan_forum_topic/view.php:71
+msgid "No topics"
+msgstr ""
+
+#: controller.php:40
+msgid "Forum"
+msgstr ""
+
+#: controller.php:45
+msgid "Installs the discussion board add-on"
+msgstr ""
+
+#: controller.php:52
+msgid "You must install the \"xan_ckEditor_plugins\" package first"
+msgstr ""
+
+#: controller.php:63
+msgid "Forum Import"
+msgstr ""
+
+#: controller.php:64
+msgid "Forum Pages Import"
+msgstr ""
+
+#: controllers/conversations/conversation.php:216 controllers/tools.php:65
+msgid "Bad token"
+msgstr ""
+
+#: controllers/conversations/conversation.php:224
+msgid "Block ID or Page ID not sent"
+msgstr ""
+
+#: controllers/conversations/conversation.php:229
+msgid "Invalid block"
+msgstr ""
+
+#: controllers/conversations/conversation.php:235
+msgid "You do not have permission to view this conversation"
+msgstr ""
+
+#: controllers/conversations/conversation.php:241
+msgid "Invalid Conversation."
+msgstr ""
+
+#: controllers/conversations/conversation.php:248
+#: controllers/conversations/conversation.php:253
+msgid "This conversation does not allow file attachments."
+msgstr ""
+
+#: controllers/conversations/conversation.php:290 controllers/tools.php:87
+msgid "File size exceeds limit"
+msgstr ""
+
+#: controllers/conversations/conversation.php:295 controllers/tools.php:92
+msgid "Attachment limit reached"
+msgstr ""
+
+#: controllers/conversations/conversation.php:315 controllers/tools.php:106
+msgid "Invalid File Extension"
+msgstr ""
+
+#: controllers/conversations/message.php:58
+msgid "Invalid Block Object."
+msgstr ""
+
+#: controllers/conversations/message.php:67
+msgid "Invalid conversation."
+msgstr ""
+
+#: controllers/conversations/message.php:71
+msgid "You do not have access to add a message to this conversation."
+msgstr ""
+
+#: controllers/conversations/message.php:79
+msgid "You must enter your name to post this message."
+msgstr ""
+
+#: controllers/conversations/message.php:86
+msgid "You must enter a valid email address to post this message."
+msgstr ""
+
+#: controllers/conversations/message.php:99
+msgid "Invalid Page."
+msgstr ""
+
+#: controllers/conversations/message.php:104
+#: controllers/conversations/message.php:250
+msgid "You do not have permission to add attachments."
+msgstr ""
+
+#: controllers/conversations/message.php:109
+#: controllers/conversations/message.php:255
+msgid "You have too many attachments."
+msgstr ""
+
+#: controllers/conversations/message.php:116
+#: controllers/conversations/message.php:222
+msgid "Invalid conversation post token."
+msgstr ""
+
+#: controllers/conversations/message.php:129
+msgid "Invalid parent message."
+msgstr ""
+
+#: controllers/conversations/message.php:134
+msgid "Banned words detected."
+msgstr ""
+
+#: controllers/conversations/message.php:230
+msgid "Invalid message object."
+msgstr ""
+
+#: controllers/conversations/message.php:234
+msgid "You do not have access to edit this message."
+msgstr ""
+
+#: controllers/conversations/message.php:289
+msgid "Message deleted successfully."
+msgstr ""
+
+#: controllers/conversations/message.php:325
+msgid "Message flagged successfully."
+msgstr ""
+
+#: controllers/frontend/assets_localization.php:20
+msgid "Remove this message? Replies to it will not be removed"
+msgstr ""
+
+#: controllers/frontend/assets_localization.php:21
+msgid "Are you sure you want to flag this message as spam?"
+msgstr ""
+
+#: controllers/frontend/assets_localization.php:22
+msgid "Please complete or cancel the current message editing session before editing this message."
+msgstr ""
+
+#: controllers/frontend/assets_localization.php:23
+msgid "An unspecified error occurred."
+msgstr ""
+
+#: controllers/frontend/assets_localization.php:24
+msgid "Something went wrong while deleting this message, please refresh and try again."
+msgstr ""
+
+#: controllers/frontend/assets_localization.php:25
+msgid "Something went wrong while flagging this message, please refresh and try again."
+msgstr ""
+
+#: controllers/frontend/assets_localization.php:28
+msgid "Too many files"
+msgstr ""
+
+#: controllers/frontend/assets_localization.php:29
+msgid "Invalid file extension"
+msgstr ""
+
+#: controllers/frontend/assets_localization.php:30
+msgid "Max file size exceeded"
+msgstr ""
+
+#: controllers/frontend/assets_localization.php:31
+msgid "Something went wrong while deleting this attachment, please refresh and try again."
+msgstr ""
+
+#: controllers/frontend/assets_localization.php:32
+#: elements/conversation/display.php:45
+msgid "Remove this attachment?"
+msgstr ""
+
+#: controllers/single_page/account/remove_account.php:55
+msgid "Password and Password confirmation are not equals !!"
+msgstr ""
+
+#: controllers/single_page/account/remove_account.php:57
+msgid "Password mismatch"
+msgstr ""
+
+#: controllers/single_page/account/remove_account.php:66
+msgid "Validate Remove Account"
+msgstr ""
+
+#: controllers/single_page/account/remove_account.php:106
+msgid "No entry for your request exist to validate the definitely remove of your account  "
+msgstr ""
+
+#: controllers/single_page/account/remove_account.php:121
+msgid "Your Account is disabled and an email is sent to you to validate the definitely remove of your account"
+msgstr ""
+
+#: controllers/single_page/account/remove_account.php:129
+msgid "Your Account is definitely removed . thanks for you visit"
+msgstr ""
+
+#: controllers/single_page/dashboard/system/backup/forum/import.php:217
+msgid "Remote URL import requires the iconv extension enabled on your server."
+msgstr ""
+
+#: controllers/single_page/dashboard/system/backup/forum/import.php:290
+#, php-format
+msgid "Could not determine the name of the file at %s"
+msgstr ""
+
+#: controllers/single_page/dashboard/system/backup/forum/import.php:295
+#, php-format
+msgid "There was an error downloading %s"
+msgstr ""
+
+#: elements/conversation/display.php:37 elements/conversation/display.php:39
+msgid "Delete Message"
+msgstr ""
+
+#: elements/conversation/display.php:40
+msgid "Remove this message?."
+msgstr ""
+
+#: elements/conversation/display.php:42 elements/conversation/display.php:44
+msgid "Delete Attachment"
+msgstr ""
+
+#: elements/conversation/display.php:47 elements/conversation/message.php:90
+msgid "Link"
+msgstr ""
+
+#: elements/conversation/display.php:48
+msgid "Close"
+msgstr ""
+
+#: elements/conversation/message.php:47
+#: elements/conversation/message/topic.php:44
+msgid "Reply"
+msgstr ""
+
+#: elements/conversation/message.php:62
+msgid "Author"
+msgstr ""
+
+#: elements/conversation/message.php:89
+msgid "Get message URL."
+msgstr ""
+
+#: elements/conversation/message.php:102
+msgid "Attachments"
+msgstr ""
+
+#: elements/conversation/message.php:155
+msgid "Report"
+msgstr ""
+
+#: elements/conversation/message.php:165
+#: elements/conversation/message/topic.php:41
+msgid "Delete"
+msgstr ""
+
+#: elements/conversation/message.php:174
+msgid "Edit"
+msgstr ""
+
+#: elements/conversation/message/add_form.php:24
+msgid "Submit"
+msgstr ""
+
+#: elements/conversation/message/add_form.php:33
+msgid "Un-Subscribe"
+msgstr ""
+
+#: elements/conversation/message/add_form.php:37
+msgid "Subscribe to Conversation"
+msgstr ""
+
+#: elements/conversation/message/add_form.php:59
+msgid "Adding new message is disabled for this conversation."
+msgstr ""
+
+#: elements/conversation/message/add_form.php:65
+msgid "You must <a class=\"login-form\" >sign in</a> to post to this conversation."
+msgstr ""
+
+#: elements/conversation/message/add_form.php:69
+msgid "You do not have permission to post this to conversation."
+msgstr ""
+
+#: elements/conversation/message/author.php:11
+msgid "Full Name"
+msgstr ""
+
+#: elements/conversation/message/author.php:15
+msgid "Email Address"
+msgstr ""
+
+#: elements/conversation/message/author.php:19
+msgid "Website"
+msgstr ""
+
+#: elements/conversation/message/pending.php:26
+msgid "This message is pending approval by a moderator."
+msgstr ""
+
+#: elements/conversation/message/topic.php:54
+msgid "Rate this Message"
+msgstr ""
+
+#: mail/new_conversation_message.php:4
+#, php-format
+msgid "New Message on Conversation: %s"
+msgstr ""
+
+#: mail/new_conversation_message.php:5
+#, php-format
+msgid ""
+"\n"
+"%s has posted a new message to the conversation \"%s\":\n"
+"\n"
+"%s\n"
+"\n"
+"You can view the whole conversation at\n"
+"\n"
+"%s\n"
+"\n"
+msgstr ""
+
+#: mail/report_conversation_message.php:4
+#, php-format
+msgid "Report Message on Conversation: %s"
+msgstr ""
+
+#: mail/report_conversation_message.php:5
+#, php-format
+msgid ""
+"\n"
+"link to author %s  ,\n"
+"content of report message in conversation \"%s\":\n"
+"\n"
+"%s\n"
+"\n"
+"You can view this report conversation message at\n"
+"\n"
+"%s\n"
+"\n"
+msgstr ""
+
+#: mail/validate_remove_user_account_email.php:11
+msgid "Remove Account - Validate Email Address"
+msgstr ""
+
+#: mail/validate_remove_user_account_email.php:12
+#, php-format
+msgid ""
+"\n"
+"\n"
+"You must click the following URL in order to remove definitively your account for %s:\n"
+"\n"
+"%s \n"
+"\n"
+"Thanks for your interest in %s\n"
+"\n"
+msgstr ""
+
+#: single_pages/account/remove_account.php:10
+msgid "Remove account"
+msgstr ""
+
+#: single_pages/account/remove_account.php:14
+msgid "Current Password"
+msgstr ""
+
+#: single_pages/account/remove_account.php:19
+msgid "Confirm Current Password"
+msgstr ""
+
+#: single_pages/account/remove_account.php:28
+msgid "Confirm"
+msgstr ""
+
+#: single_pages/account/remove_account_validation.php:13
+msgid "Remove Account"
+msgstr ""
+
+#: single_pages/dashboard/system/backup/forum/import.php:13
+#: single_pages/dashboard/system/backup/import.php:13
+msgid "Forum Page"
+msgstr ""
+
+#: single_pages/dashboard/system/backup/forum/import.php:49
+#: single_pages/dashboard/system/backup/import.php:61
+msgid "XML File"
+msgstr ""
+
+#: single_pages/dashboard/system/backup/forum/import.php:58
+msgid "Import Users"
+msgstr ""
+
+#: single_pages/dashboard/system/backup/forum/import.php:63
+msgid "Import users"
+msgstr ""
+
+#: single_pages/dashboard/system/backup/forum/import.php:70
+#: single_pages/dashboard/system/backup/import.php:70
+msgid "Import XML"
+msgstr ""
+
+#: single_pages/dashboard/system/backup/import.php:49
+msgid "Mail to new users"
+msgstr ""
+
+#: single_pages/dashboard/system/backup/import.php:54
+msgid "Send welcome mail to new users"
+msgstr ""
+
+#: single_pages/dashboard/system/backup/import.php:82
+msgid "XML File 1"
+msgstr ""
+
+#: single_pages/dashboard/system/backup/import.php:91
+msgid "XML File 2"
+msgstr ""
+
+#: single_pages/dashboard/system/backup/import.php:100
+msgid "Merge XML"
+msgstr ""
+
+#: src/Conversation/Message/AuthorFormatter.php:17
+msgid "Anonymous"
+msgstr ""
+
+#: views/conversation/alert_report_conversation_message.php:3
+msgid "An Email has been sent to administrators"
+msgstr ""
+
+#: views/conversation/alert_report_conversation_message.php:7
+msgid "Error email not sent to administrators."
+msgstr ""
+
+#: views/conversation/edit_message.php:8
+msgid "Save"
+msgstr ""
