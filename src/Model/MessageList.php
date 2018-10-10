@@ -1,9 +1,12 @@
 <?php
 namespace XanForum\Model;
 
+use Concrete\Core\Conversation\Conversation;
+use Concrete\Core\Conversation\FlagType\FlagType;
 use XanForum\Model\Message as ForumMessage;
 use Concrete\Core\Search\ItemList\Database\ItemList as DatabaseItemList;
 use Concrete\Core\Search\Pagination\Pagination;
+use Pagerfanta\Adapter\DoctrineDbalAdapter;
 use PDO;
 
 class MessageList extends DatabaseItemList
